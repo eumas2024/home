@@ -11,9 +11,8 @@
 	<meta name="team" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- MAIN CSS -->
-	<link rel="stylesheet" href="css/tooplate-style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="css/tooplace-style.css">
 
 	<style>
 	html {
@@ -47,7 +46,18 @@
 			<!-- MENU LINKS -->
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
+					<li>
+						<a href="#about">About</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#papers">Call for papers</a></li>
+							<!-- <li><a class="dropdown-item" href="#dates">Important dates</a></li>
+							<li><a class="dropdown-item" href="#phd">PhD day</a></li>
+							<li><a class="dropdown-item" href="#accepted">Accepted papers</a></li>
+							<li><a class="dropdown-item" href="#committee">Committee</a></li>
+							<li><a class="dropdown-item" href="#registration">Registration</a></li> -->
+							<li><a class="dropdown-item" href="#venue">Venue</a></li>
+						</ul>
+					</li>
 					<li><a href="#program">Papers</a></li>
 					<li><a href="#comm">Committees</a></li>
 				</ul>
@@ -63,8 +73,8 @@
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6 col-sm-12">
 					<div class="home-info">
-						<h1>The 19th European Conference on Multi-Agent Systems</h1>
-						<h3>September 14-16, 2022 in D&uuml;sseldorf</h3>
+						<h1>The 21st European Conference on Multi-Agent Systems</h1>
+						<h3>August 26-28th, 2024 in Dublin, Ireland</h3>
 					</div>
 				</div>
 			</div>
@@ -72,7 +82,7 @@
 	</section>
 
 	<!-- News -->
-	<section id="news" data-stellar-background-ratio="0.5">
+	<!-- <section id="news" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6 col-sm-12">
@@ -80,10 +90,10 @@
 						<h1>News</h1>
 					</div>
 				</div>
-				<br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br>
 				<div style="text-align: justify">
 					<p>
-						The link to the proceedings is available: <a href="http://link.springer.com/openurl.asp?genre=issue&issn=0302-9743&volume=13442">click here.</a>
+						No news yet...
 					</p>
 					<br><br>
 					<p>
@@ -93,7 +103,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- ABOUT -->
 	<section id="about" data-stellar-background-ratio="0.5">
@@ -104,20 +114,24 @@
 						<h1>About</h1>
 					</div>
 				</div>
-				<br><br><br><br><br><br><br><br>
+				<!-- <br><br><br><br><br><br><br><br> -->
+				<br><br><br><br><br><br>
 				<div style="text-align: justify">
 					<p>
-						The 19th European Conference on Multi-Agent Systems (EUMAS 2022) will be on  September 14-16, 2022.
-						We hope that we are allowed to welcome you at the Heinrich-Heine-Universit&auml;t in D&uuml;sseldorf (Germany), and plan the event on site.
-						Note, however, that this may change due to local COVID regulations.
+						The 21st European Conference on Multi-Agent Systems (EUMAS 2024) will be on August 26-28, 2024 by
+						the <a href="https://www.cs.ucd.ie">School of Computer Science</a> at <a href="https://www.ucd.ie">University College Dublin</a>, Ireland.
 					</p>
 					<p>
-						EUMAS 2022 is an <a href="https://euramas.org/"> EURAMAS </a> designated event which follows the tradition of previous editions
-						(Oxford 2003, Barcelona 2004, Brussels 2005, Lisbon 2006, Hammamet 2007, Bath 2008, Agia Napa 2009, Paris 2010, Maastricht 2011, Dublin 2012, Toulouse 2013, Prague 2014, Athens 2015, Valencia 2016, Evry 2017, Bergen 2018, Thessaloniki 2020, Israel (online) 2021),
-						and aims to encourage and support activity in the research and development of multi- agent systems, in academic and industrial effort.
-						The conference aspires to be the primary European forum for researchers interested in the theory and practice of autonomous agents and multi-agent systems.
+						EUMAS 2024 is an <a href="https://euramas.org/"> EURAMAS </a> designated event which follows the tradition of previous editions
+						(Oxford 2003, Barcelona 2004, Brussels 2005, Lisbon 2006, Hammamet 2007, Bath 2008, Agia Napa 2009, Paris 2010, Maastricht 2011, 
+						Dublin 2012, Toulouse 2013, Prague 2014, Athens 2015, Valencia 2016, Evry 2017, Bergen 2018, Thessaloniki 2020, Israel (online) 2021
+						Düsseldorf 2023, Naples 2023), and aims to encourage and support activity in the research and development of multi-agent systems, in
+						academic and industrial effort.
+
+						The conference aspires to be the primary European forum for researchers interested in the theory and practice of autonomous agents 
+						and multi-agent systems.
 						EUMAS enables researchers to meet, present challenges, preliminary and mature research results in an open environment.
-						EUMAS 2022 features formal proceddings published as part of the Lecture Notes in Computer Science (LNCS) series of Springer.
+						EUMAS 2024 features formal proceddings published as part of the Lecture Notes in Computer Science (LNCS) series of Springer.
 					</p>
 					<p>
 						This conference is kindly sponsored by the <a href="https://www.unifreunde-duesseldorf.de/en/"> Gesellschaft von Freunden und Förderern der
@@ -268,8 +282,9 @@
 
 
 <!-- SCRIPTS -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- <script src="js/jquery.stellar.min.js"></script> -->
 <script src="js/custom.js"></script>
 
 </body>
